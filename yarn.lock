@@ -3590,6 +3590,11 @@ lodash.isstring@^4.0.1:
   resolved "https://registry.yarnpkg.com/lodash.isstring/-/lodash.isstring-4.0.1.tgz#d527dfb5456eca7cc9bb95d5daeaf88ba54a5451"
   integrity sha1-1SfftUVuynzJu5XV2ur4i6VKVFE=
 
+lodash.merge@4.6.2:
+  version "4.6.2"
+  resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.2.tgz#558aa53b43b661e1925a0afdfa36a9a1085fe57a"
+  integrity sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==
+
 lodash.omit@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.omit/-/lodash.omit-4.5.0.tgz#6eb19ae5a1ee1dd9df0b969e66ce0b7fa30b5e60"
@@ -5126,6 +5131,13 @@ static-extend@^0.1.1:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-1.5.0.tgz#161c7dac177659fd9811f43771fa99381478628c"
   integrity sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow=
+
+stitches-native@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/stitches-native/-/stitches-native-0.1.0.tgz#ef12888c69a19865f715e813a4c8cb1a67039248"
+  integrity sha512-88oBP1jw0fD60HDwJS2JCjLqNFPd4x8CBJ+0eEvvG7ngO+iEsGP+/xTuJkrzpaXlzMfTupUN7UKlNoim9cATDw==
+  dependencies:
+    lodash.merge "4.6.2"
 
 stream-buffers@2.2.x:
   version "2.2.0"
